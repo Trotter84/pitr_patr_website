@@ -1,0 +1,124 @@
+/* ============================ DESKTOP Version ============================ */
+
+body {
+  height: 100%;
+  background-color: #000000;
+
+}
+
+#appContainer {
+  justify-content: center;
+}
+
+/* ________________________________ TitlePage ________________________________ */
+#titlePageButton {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+#houseLogoImage {
+  height: 250px;
+  left: 40%;
+  position: absolute;
+  top: 30%;
+  width: 250px;
+}
+
+#nameLogoImage {
+  height: 250px;
+  left: 40%;
+  position: absolute;
+  top: 58%;
+  width: 250px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* __________________________________ Home __________________________________ */
+#homeText {
+  color: white;
+  height: 250px;
+  left: 40%;
+  position: absolute;
+  top: 58%;
+  width: 250px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+/* ========================================================================== */
+
+
+
+/* ============================= TABLET Version ============================= */
+@media (min-width: 426px) and (max-width: 769px) {
+#appContainer {
+  max-width: 765px;
+}
+
+/* ________________________________ TitlePage ________________________________ */
+#titlePageButton {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+#houseLogoImage {
+  height: 250px;
+  left: 40%;
+  position: absolute;
+  top: 30%;
+  width: 250px;
+}
+
+#nameLogoImage {
+  height: 250px;
+  left: 40%;
+  position: absolute;
+  top: 58%;
+  width: 250px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* __________________________________ Home __________________________________ */
+
+
+
+/* -------------------------------------------------------------------------- */
+}
+/* ========================================================================== */
+
+
+
+/* ============================= MOBILE VERSION ============================= */
+@media (max-width: 426px) {
+
+/* ________________________________ TitlePage ________________________________ */
+#titlePageButton {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+#houseLogoImage {
+  height: 200px;
+  left: 23%;
+  position: absolute;
+  top: 30%;
+  width: 200px;
+}
+
+#nameLogoImage {
+  height: 200px;
+  left: 23%;
+  position: absolute;
+  top: 53%;
+  width: 200px;
+}
+/* -------------------------------------------------------------------------- */
+
+/* __________________________________ Home __________________________________ */
+
+
+
+/* -------------------------------------------------------------------------- */
+}
+/* ========================================================================== */
