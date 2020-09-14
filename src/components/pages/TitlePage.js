@@ -10,12 +10,12 @@ import NameLogo from '../../images/LOGO TEXT.png';
 class TitlePage extends Component {
   render() {
     return (
-      <>
+      <div id='titlePageContainer'>
         <Link to={'./home'} id='titlePageButton'>
           <img src={HouseLogo} id='houseLogoImage' alt='House Logo'></img>
           <img src={NameLogo} id='nameLogoImage' alt='Name Logo Pitr Patr'></img>
         </Link>
-      </>
+      </div>
     )
   }
 

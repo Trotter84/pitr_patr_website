@@ -11,25 +11,29 @@ body {
 }
 
 /* ________________________________ TitlePage ________________________________ */
-#titlePageButton {
+#titlePageContainer {
+  display: flex;
   flex-direction: column-reverse;
   justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#titlePageButton {
+  width: 300px;
+  position: absolute;
+  top: 20%;
 }
 
 #houseLogoImage {
-  height: 250px;
-  left: 40%;
-  position: absolute;
-  top: 30%;
-  width: 250px;
+  height: 300px;
+  width: 300px;
 }
 
 #nameLogoImage {
-  height: 250px;
-  left: 40%;
-  position: absolute;
-  top: 58%;
-  width: 250px;
+  display: flex;
+  align-content: center;
+  width: 100%;
 }
 /* -------------------------------------------------------------------------- */
 
