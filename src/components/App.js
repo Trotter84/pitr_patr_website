@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import {
   Route,
   Switch,
-  Redirect,
-  Router
+  Redirect
 } from 'react-router-dom';
-import { ScrollManager, WindowScroller } from 'react-scroll-manager';
-import { createBrowserHistory as createHistory } from 'history';
+import { WindowScroller } from 'react-scroll-manager';
 import './App.css';
 
 import TitlePage from './pages/TitlePage';

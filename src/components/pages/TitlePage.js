@@ -14,6 +14,7 @@ class TitlePage extends Component {
         <Link to={'./home'} id='titlePageButton'>
           <img src={HouseLogo} id='houseLogoImage' alt='House Logo'></img>
           <img src={NameLogo} id='nameLogoImage' alt='Name Logo Pitr Patr'></img>
+          <h2 id='hiddenText' style={{textDecoration: 'none'}}>Enter the Ag-Hall</h2>
         </Link>
       </div>
     )
