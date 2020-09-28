@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
   Route,
   Switch,
-  Redirect
+  Redirect  
 } from 'react-router-dom';
 import { WindowScroller } from 'react-scroll-manager';
 import './App.css';
