@@ -5,6 +5,8 @@ import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
+import './fonts/adrip1.ttf'
+
 ReactDOM.render(
   <BrowserRouter>
     <App />

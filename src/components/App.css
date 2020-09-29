@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'adrip1';
+  src: local('adrip1'), url(../fonts/adrip1.ttf) format('truetype');
+}
+
 /* ============================ DESKTOP Version ============================ */
 
 body {
@@ -96,19 +101,29 @@ body {
   justify-content: center;
   align-content: center;
   align-self: center;
-  width: 90%;
+  margin: 0 40px;
 }
 
 #gridContainer {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  width: 100vw;
-  height: 100vh;
+  width: 90vw;
+  height: 75vh;
+}
+
+.title {
+
 }
 
 .body-Fade {
+  font-family: 'adrip1';
+  font-size: 60px;
+  letter-spacing: 4px;
   color: white;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 40px 0;
   animation: bodyFadeIn ease 4s;
   -webkit-animation: fadeIn ease 4s;
   -moz-animation: fadeIn ease 4s;

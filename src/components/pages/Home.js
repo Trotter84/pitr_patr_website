@@ -12,8 +12,10 @@ class Home extends Component {
         </div>
         <div id='homeBodyContainer'>
           <div id='gridContainer'>
-            <h1 className='body-Fade'>Hello</h1>
-            <h1 className='body-Fade'>Bye</h1>
+            <h1 className='title body-Fade'>New Music</h1>
+            <h1 className='title body-Fade'>Social</h1>
+            <h1 className='title body-Fade'>Updates</h1>
+            <h1 className='title body-Fade'>Store/Commuinity Feed</h1>
           </div>
         </div>
       </>
