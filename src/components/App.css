@@ -119,11 +119,6 @@ body {
   align-items: center;
 }
 
-#songTitle {
-  display: flex;
-  float: left;
-}
-
 .title {
   font-family: 'adrip1';
   font-size: 60px;
