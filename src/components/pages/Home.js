@@ -20,7 +20,7 @@ class Home extends Component {
                   <a href="https://soundcloud.com/itspitrpatr" title="PITRPATR" target="_blank" rel="noopener noreferrer" style={{ color: '#cccccc', textDecoration: 'none'}}>
                     PITRPATR
                   </a>
-                  <a href="https://soundcloud.com/itspitrpatr/sometimes-too-high" title="Sometimes Too High" target="_blank" style={{color: '#cccccc', textDecoration: 'none'}}>
+                  <a href="https://soundcloud.com/itspitrpatr/sometimes-too-high" title="Sometimes Too High" target="_blank" rel="noopener noreferrer" style={{color: '#cccccc', textDecoration: 'none'}}>
                     Sometimes Too High
                   </a>
                 </div>
