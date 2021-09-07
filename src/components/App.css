@@ -73,6 +73,7 @@ body {
 
 /* __________________________________ Home __________________________________ */
 #homeContainer {
+  animation: fadeIn ease 4s;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -84,7 +85,7 @@ body {
 }
 
 .fade-In {
-  animation: fadeIn ease 2s;
+  animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
@@ -124,6 +125,26 @@ body {
   -ms-animation: fadeIn ease 4s;
 }
 
+#emailLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailStyle {
+  transition: all 200ms ease-in;
+  font-family: 'adrip1';
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.emailStyle:hover {
+  transition: all 200ms ease-in;
+  font-size: 36px;
+  color: green;
+}
+
 .title {
   font-family: 'adrip1';
   font-size: 60px;
@@ -131,11 +152,11 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  margin: 15px 0 15px 0;
+  margin: 15px 0 0px 0;
 }
 
 .bottom-line {
-
+  
 }
 
 .box-top-bottom {
@@ -162,11 +183,11 @@ body {
 }
 
 .body-Fade {
-  animation: bodyFadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
-  -moz-animation: fadeIn ease 4s;
-  -o-animation: fadeIn ease 4s;
-  -ms-animation: fadeIn ease 4s;
+  animation: bodyFadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
 }
 
 @keyframes bodyFadeIn {
